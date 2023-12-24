@@ -4,7 +4,6 @@ A receipt organizer prototype that uses AI to sort receipts based on its info au
 `pip install google-cloud-storage flask requests-toolbelt pymongo`
 <br>
 `python -m pip install requests`  
-<br>
 `python3 -m pip install 'pymongo[srv]'`
 
 ## Please set up Python flask environment with the given link
