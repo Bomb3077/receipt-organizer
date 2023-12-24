@@ -1,11 +1,16 @@
-receipt-organizer
-please install all the necessary packagees below in Python such that
-pip install google-cloud-storage flask requests-toolbelt pymongo
+A receipt organizer prototype that uses AI to sort receipts based on its info automatically.
+
+# Get started
+`pip install google-cloud-storage flask requests-toolbelt pymongo
 python -m pip install requests
-please set up flask environment with the given link
-# https://flask.palletsprojects.com/en/3.0.x/installation/#virtual-environments
-python3 -m pip install 'pymongo[srv]'
-Detail about TAGGUN OCR API
-# https://developers.taggun.io/reference/scan-your-first-receipt
-API key for openai should be store in a file outside of prohject
+python3 -m pip install 'pymongo[srv]'`
+
+## Please set up Python flask environment with the given link
+https://flask.palletsprojects.com/en/3.0.x/installation/#virtual-environments
+
+## Detail about TAGGUN OCR API
+https://developers.taggun.io/reference/scan-your-first-receipt
+
+### Note
+API key for opening should be stored in a file outside of project
 
